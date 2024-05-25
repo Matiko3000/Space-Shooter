@@ -6,7 +6,7 @@ public class AudioPlayer : MonoBehaviour
 {
     [Header("Shooting")]
     [SerializeField] AudioClip shootingClip;
-    [SerializeField] [Range(0f, 1f)] float shootingVolume = 1f;
+    [SerializeField] [Range(0f, 1f)] float shootingVolume = 1f;//too loud
 
     [Header("Taking Damage")]
     [SerializeField] AudioClip damageTakenClip;
